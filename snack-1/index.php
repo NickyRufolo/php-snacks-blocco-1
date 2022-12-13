@@ -24,25 +24,25 @@ Buon lavoro -->
 <?php
 $game = [
     [
-        `teamhome` => `Napoli`,
-        `teamguest` => `Inter`,
-        `pointhome` => `55`,
-        `pointguest` => `30`,
+        'teamhome' => 'Napoli',
+        'teamguest' => 'Inter',
+        'pointhome' => 55,
+        'pointguest' => 30,
     ],
     [
-        `teamhome` => `Genova`,
-        `teamguest` => `Bari`,
-        `pointhome` => `70`,
-        `pointguest` => `25`,
+        'teamhome' => 'Genova',
+        'teamguest' => 'Bari',
+        'pointhome' => 70,
+        'pointguest' => 25,
     ],
     [
-        `teamhome` => `Lazio`,
-        `teamguest` => `Venezia`,
-        `pointhome` => `90`,
-        `pointguest` => `60`,
+        'teamhome' => 'Lazio',
+        'teamguest' => 'Venezia',
+        'pointhome' => 90,
+        'pointguest' => 60,
     ]
 ];
-for ( $i =0; $i < count($game); $i++) {
+for( $i =0; $i < count($game); $i++) {
     echo $game[$i]['teamhome'] . '-' . $game[$i]['teamguest'] . '|' . $game[$i]['pointhome'] . '-' . $game[$i]['pointguest'];
-}
+};
 ?>
