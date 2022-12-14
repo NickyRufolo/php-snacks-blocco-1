@@ -3,9 +3,11 @@
 <?php
 $array = [];
 for( $i =0; $i < 15; $i++ ) {
-    $number = rand(1, 1000);
-    if(!in_array($number, $array)){
-        $array[] = $number;
+    //creo la funzione
+    //in array vuoto non è presente il numero che ho generato, se nn è presente pushalo.
+    $numberRandom = rand(1, 1000);
+    if(!in_array($numberRandom, $array)){
+        $array[] = $numberRandom;
     }
 };
 foreach($array as $value){
